@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+</head>
+<style>
+    body {
+        background-image: url("https://i.gifer.com/XaKO.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
+
+<body>
+
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#" aria-label="Product">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                </svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block" href="registration.html">Sign Up</a>
+            <a class="py-2 d-none d-md-inline-block" href="login.html">Login</a>
+            <a class="py-2 d-none d-md-inline-block" href="products.html">Inventory</a>
+            <a class="py-2 d-none d-md-inline-block" href="checkout.html">Checkout</a>
+            
+        </div>
+    </nav>
+	<title>My E-commerce Website - User Registration</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 offset-md-3">
+				<h2>Funko Haven Sign-Up</h2>
+				<form method="POST" action="register.php" novalidate>
+					<div class="form-group">
+						<label for="username">Username:</label>
+						<input type="text" class="form-control" id="username" name="username" required>
+						<div class="invalid-feedback">
+							Please enter a valid username.
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="password">Password:</label>
+						<input type="password" class="form-control" id="password" name="password" required>
+						<div class="invalid-feedback">
+							Please enter a valid password.
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="confirmPassword">Confirm Password:</label>
+						<input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required>
+						<div class="invalid-feedback">
+							Please enter a valid password confirmation.
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" class="form-control" id="email" name="email" required>
+						<div class="invalid-feedback">
+							Please enter a valid email.
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="hearAboutUs">How did you hear about us?</label>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="hearAboutUs" id="radioAd" value="ad">
+							<label class="form-check-label" for="radioAd">Advertisement</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="hearAboutUs" id="radioSearch" value="search">
+							<label class="form-check-label" for="radioSearch">Instagram/Local</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="hearAboutUs" id="radioReferral" value="referral">
+							<label class="form-check-label" for="radioReferral">Friend</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQ

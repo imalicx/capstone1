@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-image: url("https://media3.giphy.com/media/Jrl4FlTaymFFbNiwU5/giphy.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    </style>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>Capstone1</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/product/">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+
+    <style>
+        .container {
+            max-width: 960px;
+        }
+
+
+
+        .site-header {
+            background-color: rgba(0, 0, 0, .85);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            backdrop-filter: saturate(180%) blur(20px);
+        }
+
+        .site-header a {
+            color: #727272;
+            transition: color .15s ease-in-out;
+        }
+
+        .site-header a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+
+
+        .product-device {
+            position: absolute;
+            right: 10%;
+            bottom: -30%;
+            width: 300px;
+            height: 540px;
+            background-color: #333;
+            border-radius: 21px;
+            transform: rotate(30deg);
+        }
+
+        .product-device::before {
+            position: absolute;
+            top: 10%;
+            right: 10px;
+            bottom: 10%;
+            left: 10px;
+            content: "";
+            background-color: rgba(255, 255, 255, .1);
+            border-radius: 5px;
+        }
+
+        .product-device-2 {
+            top: -25%;
+            right: auto;
+            bottom: 0;
+            left: 5%;
+            background-color: #e5e5e5;
+        }
+
+
+
+
+        .flex-equal>* {
+            flex: 1;
+        }
+
+        @media (min-width: 768px) {
+            .flex-md-equal>* {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="site-header sticky-top py-1">
+        <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2" href="#" aria-label="Product">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                </svg>
+            </a>
+            <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block" href="registration.html">Sign Up</a>
+            <a class="py-2 d-none d-md-inline-block" href="login.html">Login</a>
+            <a class="py-2 d-none d-md-inline-block" href="products.html">Inventory</a>
+            <a class="py-2 d-none d-md-inline-block" href="checkout.html">Checkout</a>
+            
+            
+        </div>
+    </nav>
+
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">Welcome to Funko Haven!</h1>
+            <p class="lead font-weight-normal">A family owned establishment available to all collectors alike. Started in the summer of 2018 and looking to expand within central and western Florida.</p>
+            <a class="btn btn-outline-secondary" href="#">Address</a>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-center-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black overflow-hidden">
+   <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+  <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+    <div class="my-3 py-3">
+      <h2 class="display-5">We do the following:</h2>
+      
+      
+      <ul class="list-unstyled text-left">
+        <li>We buy</li>
+        <li>We sell</li>
+        <li>And we trade!</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+           
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+  
+            </div>
+            <div class="bg-white shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            </div>
+        </div>
+    </div>
+
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+           
+    <footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10" />
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+                </svg>
+                <small class="d-block mb-3 text-muted">&copy; © Funko Haven 2018-2023</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>FAQ</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Events</a></li>
+                    <li><a class="link-secondary" href="#">Shipping</a></li>
+                    <li><a class="link-secondary" href="#">Pre-order Policy</a></li>
+                    <li><a class="link-secondary" href="#">Return Policy</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Other items we buy/sell</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="link-secondary" href="#">Nendoroids</a></li>
+                    <li><a class="link-secondary" href="#">Transformers</a></li>
+                    <li><a class="link-secondary" href="#">Marvel Legends</a></li>
+                    <li><a class="link-secondary" href="#">Squishmallows</a></li>
+                    <li><a class="link-secondary" href="#">More coming soon!</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
